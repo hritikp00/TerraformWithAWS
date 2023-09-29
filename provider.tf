@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+#Use AWS CLI for Best Practice
 provider "aws" {
   region     = ""
   access_key = ""
